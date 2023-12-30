@@ -1,9 +1,9 @@
 # SlowFastNetworks
-PyTorch implementation of ["SlowFast Networks for Video Recognition"](https://arxiv.org/abs/1812.03982).
+pytorch 实现 ["SlowFast Networks for Video Recognition"](https://arxiv.org/abs/1812.03982).
 ## Train
-1. Dataset should be orgnized as：  
+1. 数据集格式应如下  
 ```
-dataset(e.g. UCF-101)  
+dataset
 │    │ train/training  
 │    │    │ ApplyEyeMakeup  
 │    │    │ ApplyLipstick  
@@ -14,7 +14,6 @@ dataset(e.g. UCF-101)
      │    │ ...   
 ```
 
-2. Modify the params in config.py and `mode` of `train_dataloader` or `val_dataloader` in train.py.   
 
 ## Requirements
 python 3  
@@ -22,7 +21,13 @@ PyTorch >= 0.4.1
 tensorboardX  
 OpenCV  
 
-## Code Reference:
-[1] https://github.com/Guocode/SlowFast-Networks/  
-[2] https://github.com/jfzhang95/pytorch-video-recognition  
-[3] https://github.com/irhumshafkat/R2Plus1D-PyTorch  
+## 一个打架检测的模型文件如下
+链接：https://pan.baidu.com/s/1IfPYq9kRespNaTRV6btcyA 
+提取码：1234 
+--来自百度网盘超级会员V4的分享
+
+把下载的文件放到 `fightDetection\2023-12-29-11-39-14`
+下
+
+更换`predict.py` 中的视频路径,
+运行`predict.py` 
