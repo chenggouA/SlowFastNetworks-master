@@ -22,9 +22,8 @@ tensorboardX
 OpenCV  
 
 ## 一个打架检测的模型文件如下
-链接：https://pan.baidu.com/s/1IfPYq9kRespNaTRV6btcyA 
-提取码：1234 
---来自百度网盘超级会员V4的分享
+链接: https://pan.baidu.com/s/11-6L9bjfApSUy-Ul4ejOFA 提取码: Ash1 
+--来自百度网盘超级会员v4的分享
 
 把下载的文件放到 `fightDetection\2023-12-29-11-39-14`
 下
